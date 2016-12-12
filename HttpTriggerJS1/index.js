@@ -3,7 +3,7 @@ module.exports = function (context, req) {
 
         res = {
             // status: 200, /* Defaults to 200 */
-            body: "Hello World"
+            body: "Hello World! Test"
         };
 
     context.done(null, res);
