@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "input",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "samples-python",
+      "connection": "AzureWebJobsDashboard"
+    }
+  ],
+  "disabled": false
+}

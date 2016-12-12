@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "testblob/{name}",
+      "connection": "azurefunctionsc276ccdb_STORAGE"
+    }
+  ],
+  "disabled": false
+}
